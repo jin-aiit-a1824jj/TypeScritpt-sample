@@ -1,3 +1,4 @@
 touch index.ts
 tsc index.ts
 node index.js
+tsc car.ts --target ES6
