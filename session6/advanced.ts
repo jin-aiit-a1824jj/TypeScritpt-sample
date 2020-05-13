@@ -213,3 +213,4 @@ const peter ={
 } as const;
 
 //
+type PeterType = typeof peter;
