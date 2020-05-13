@@ -1,0 +1,6 @@
+tsc index.ts -w
+
+tsc --init
+tsc
+tsc -w
+
