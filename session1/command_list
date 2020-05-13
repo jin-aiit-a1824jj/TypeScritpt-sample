@@ -1,0 +1,3 @@
+touch index.ts
+tsc index.ts
+node index.js
