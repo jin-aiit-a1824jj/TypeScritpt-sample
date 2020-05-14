@@ -8,3 +8,7 @@ npm install --save-dev @types/lodash
 https://github.com/DefinitelyTyped/DefinitelyTyped
 
 npm uninstall --save-dev @types/lodash
+
+
+https://lodash.com/
+https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js
