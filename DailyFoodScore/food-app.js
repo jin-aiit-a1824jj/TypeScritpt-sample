@@ -7,8 +7,10 @@ var Score = /** @class */ (function () {
 var Food = /** @class */ (function () {
     function Food(element) {
         this.element = element;
-        element.addEventListener('click');
+        element.addEventListener('click', this.clickEventHandler);
     }
+    Food.prototype.clickEventHandler = function () {
+    };
     return Food;
 }());
 var Foods = /** @class */ (function () {

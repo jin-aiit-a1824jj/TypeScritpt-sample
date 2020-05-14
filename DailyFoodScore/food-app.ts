@@ -2,7 +2,10 @@ class Score {}
 
 class Food {
   constructor(public element: HTMLDivElement) {
-    element.addEventListener('click');
+    element.addEventListener('click', this.clickEventHandler);
+  }
+  clickEventHandler(){
+    
   }
 }
 
