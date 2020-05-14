@@ -10,6 +10,9 @@ var Score = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
+    Score.prototype.render = function () {
+        document.querySelector('.score__number').textContent = String(this.totalScore);
+    };
     return Score;
 }());
 var Food = /** @class */ (function () {
@@ -20,6 +23,8 @@ var Food = /** @class */ (function () {
     Food.prototype.clickEventHandler = function () {
         console.log(this);
         this.element.classList.toggle('food--active');
+        var score = new Score();
+        score.render();
     };
     return Food;
 }());
