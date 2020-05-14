@@ -9,3 +9,8 @@ var myApp;
 })(myApp || (myApp = {}));
 const hello = myApp.name;
 let nameable;
+let name;
+//namespace name {}
+// namespace name {
+//   export const first: string = 'name';
+// }

@@ -13,3 +13,15 @@ namespace myApp {
 }
 const hello = myApp.name
 let nameable: myApp.Nameable;
+
+let name: string;
+//function name() {}
+//enum name {}
+//class name {}
+interface name {}
+//namespace name {}
+
+
+// namespace name {
+//   export const first: string = 'name';
+// }
