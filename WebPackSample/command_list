@@ -20,3 +20,10 @@ npm run build
 npm install --save-dev webpack-dev-server
 
 npm run start
+
+
+webpack --config webpack.[].js
+webpack-dev-server --config webpack.[].js
+
+
+npm install --save-dev clean-webpack-plugin
