@@ -5,7 +5,9 @@ var Score = /** @class */ (function () {
     return Score;
 }());
 var Food = /** @class */ (function () {
-    function Food() {
+    function Food(element) {
+        this.element = element;
+        element.addEventListener('click');
     }
     return Food;
 }());
@@ -13,6 +15,7 @@ var Foods = /** @class */ (function () {
     function Foods() {
         this.elements = document.querySelectorAll('.food');
         this.elements.forEach(function (element) {
+            new Food(element);
         });
     }
     return Foods;
