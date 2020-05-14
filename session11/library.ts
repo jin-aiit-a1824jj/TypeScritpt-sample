@@ -19,6 +19,8 @@ let name: string;
 //enum name {}
 //class name {}
 interface name {}
+interface name { first(): void;}
+interface name {first(): number;}
 //namespace name {}
 
 
