@@ -1,3 +1,9 @@
 https://www.npmjs.com/package/serve
 npm install -g serve
 serve
+
+https://webpack.js.org/
+
+npm init
+npm install --save-dev webpack
+npm install --save-dev webpack-cli
