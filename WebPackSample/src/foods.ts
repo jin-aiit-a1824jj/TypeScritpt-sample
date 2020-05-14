@@ -1,5 +1,5 @@
-import { Foodsable } from "./interfaces.js"
-import { Food } from "./food.js" 
+import { Foodsable } from "./interfaces"
+import { Food } from "./food" 
 
 export class Foods implements Foodsable{
   elements = document.querySelectorAll<HTMLDivElement>('.food');
