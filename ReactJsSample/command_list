@@ -1,0 +1,4 @@
+tsc --init
+npm init
+npm install react react-dom
+npm install --save-dev ts-loader typescript webpack webpack-cli clean-webpack-plugin
