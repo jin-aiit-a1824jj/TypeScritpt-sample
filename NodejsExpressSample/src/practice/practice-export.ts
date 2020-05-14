@@ -1,7 +1,7 @@
-export default 'hello'
-export const name = 'Peter';
+// export default 'hello'
+// export const name = 'Peter';
 
-// const person = {
-//   name: 'Peter'
-// }
-// export = person
+const person = {
+  name: 'Peter'
+}
+export = person
