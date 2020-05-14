@@ -8,3 +8,4 @@ var myApp;
     myApp.name = 'Quill';
 })(myApp || (myApp = {}));
 const hello = myApp.name;
+let nameable;

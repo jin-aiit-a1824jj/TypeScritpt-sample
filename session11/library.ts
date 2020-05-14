@@ -7,5 +7,9 @@ _.shuffle([1,2,3,4]);
 namespace myApp {
   const hello = 'hello in namespace';
   export const name = 'Quill';
+  export interface Nameable {
+    name: string;
+  }
 }
 const hello = myApp.name
+let nameable: myApp.Nameable;
