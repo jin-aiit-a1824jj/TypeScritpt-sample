@@ -2,3 +2,7 @@ tsc --init
 
 npm init
 npm install axios
+
+npm install lodash
+npm install --save-dev @types/lodash
+https://github.com/DefinitelyTyped/DefinitelyTyped
