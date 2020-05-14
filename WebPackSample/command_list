@@ -13,3 +13,10 @@ npm run build
 
 npm install --save-dev ts-loader
 npm install --save-dev typescript
+
+npm run build
+
+
+npm install --save-dev webpack-dev-server
+
+npm run start
