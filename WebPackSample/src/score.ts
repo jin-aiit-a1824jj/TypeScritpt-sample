@@ -1,4 +1,7 @@
-class Score implements Scoreable{
+import { Scoreable } from "./interfaces.js"
+import { Foods } from "./foods.js" 
+
+export class Score implements Scoreable{
   get totalScore(){
     const foods = Foods.getInstance();
     return foods.activeElementsScore.reduce((total, score) => total + score, 0);
